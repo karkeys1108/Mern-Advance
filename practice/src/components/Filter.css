@@ -1,0 +1,169 @@
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d45a1c;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #d45a1c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b34c1b;
+}
+
+.One {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SearchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-dropdown {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+}
+
+.filter-dropdown select {
+  padding: 8px 12px;
+  border: 1px solid #d45a1c;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 12px;
+}
+
+.product-table th {
+  background-color: #f7f7f7;
+  color: #333;
+  font-weight: bold;
+}
+
+.product-table tr:hover {
+  background-color: #fef4e8;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #ddd;
+}
+
+.product-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.product-title {
+  color: #d45a1c;
+  font-weight: 500;
+}
+
+.product-price {
+  color: #555;
+}
+
+button.full-width {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.cart-container {
+  margin-top: 32px;
+}
+
+.cart-container h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d45a1c;
+  margin-bottom: 16px;
+}
+
+.cart-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-container th,
+.cart-container td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.cart-container th {
+  background-color: #f7f7f7;
+  color: #333;
+  font-weight: bold;
+}
+
+.cart-container td button {
+  margin: 0 4px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #d45a1c;
+  border-radius: 4px;
+  color: #d45a1c;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cart-container td button:hover {
+  background-color: #d45a1c;
+  color: #fff;
+}
+
+.cart-container tr:hover {
+  background-color: #fef4e8;
+}
+
+.cart-container p {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
