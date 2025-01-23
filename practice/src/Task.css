@@ -1,0 +1,70 @@
+/* Container styles */
+.container {
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Input styles */
+  .text-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  /* Button color variations */
+  .blue {
+    background-color: #007bff;
+  }
+  
+  .green {
+    background-color: #28a745;
+  }
+  
+  .yellow {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  .red {
+    background-color: #dc3545;
+  }
+  
+  /* Timer styles */
+  .timer {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .times-up {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
