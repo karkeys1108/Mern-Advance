@@ -1,0 +1,60 @@
+body {
+    background-color: #f9f9f9; /* Light background to contrast with the yellow theme */
+}
+
+.login-container {
+    width: 300px;
+    padding: 40px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #FFC107; /* Yellow border on focus */
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5); /* Yellow shadow */
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #FFC107; /* Yellow background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ffca28; /* Slightly darker yellow on hover */
+}
+
+button:active {
+    transform: scale(0.95);
+}

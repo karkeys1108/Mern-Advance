@@ -1,18 +1,26 @@
-import React from 'react'
-import Video from './components/Video';
-import OrderFilter from './components/OrderFilter';
-import Pros from './components/Pros';
-import Task from './components/Task';
+import React, { useState } from 'react';
+import Login from './components/Login';
+import Home from './components/Home';
+import withUser from './components/withUser';
 
 const App = () => {
-  return (
-    <div>
-      <Video/>
-      <OrderFilter/>
-      <Pros />
-      <Task/>
-    </div>
-  )
-}
+  const [user, setUser] = useState(null);
 
-export default App
+  const handleLogin = (userData) => {
+    setUser(userData);
+  };
+
+  const EnhancedHome = withUser(Home);
+
+  return (
+    <div className="app">
+      {user ? (
+        <EnhancedHome user={user} />
+      ) : (
+        <Login onLogin={handleLogin} />
+      )}
+    </div>
+  );
+};
+
+export default App;
